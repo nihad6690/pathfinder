@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+ }
+ 
+ table,
+ th,
+ td {
+     border: 1px solid Gray;
+     border-collapse: collapse;
+     padding: 9px;
+ }
+ 
+ #mytable {
+     border: 2px solid rgb(46, 42, 42);
+     border-style: solid;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ td:active {
+     background-color: black;
+ }
+ 
+ button {
+     margin-top: 6px;
+     cursor: pointer;
+     letter-spacing: 1px;
+     font-family: "Segoe UI", Arial, sans-serif;
+     font-size: large;
+     font-weight: 501;
+     background-color: rgb(255, 255, 255);
+     color: black;
+     border-radius: 20%;
+     padding: 9px;
+     transition: 1s;
+     border: 2.5px solid rgb(46, 42, 42);
+ }
+ 
+ button:hover {
+     padding-right: 5px;
+     color: white;
+     background-color: rgb(46, 42, 42);
+     border-color: white;
+ }
+ 
+ #header {
+     display: flex;
+     position: relative;
+     overflow: hidden;
+     background-color: rgb(255, 255, 255);
+     padding-top: 1px;
+     margin: -8px;
+     margin-block-end: -16px;
+     opacity: 70%;
+ }
+ 
+ h1 {
+     text-align: left;
+     opacity: 90%;
+     margin-left: 39px;
+     margin-right: 500px;
+ }
